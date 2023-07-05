@@ -1,4 +1,4 @@
-13.234.117.211def check() {
+def check() {
     echo "building the application..."
 } 
 
