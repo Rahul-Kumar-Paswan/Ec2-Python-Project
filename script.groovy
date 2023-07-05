@@ -1,5 +1,5 @@
 def check() {
-    echo "building the application....."
+    echo "building the application.."
 } 
 
 def buildImage() {
