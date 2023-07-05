@@ -15,7 +15,7 @@ def deployApp() {
     echo 'deploying the application...'
     def dockerCmd = 'docker run -d --name ishu-project -p 3000:3000 rahulkumarpaswan/my-python-project:1.3'
     sshagent(['ec2-user-Rahul']) {
-    sh "ssh -o StrictHostKeyChecking=no ec2-user@13.234.117.211 ${dockerCmd}"
+    sh "ssh -o StrictHostKeyChecking=no ec2-user@15.206.72.171 ${dockerCmd}"
     }
 } 
 
